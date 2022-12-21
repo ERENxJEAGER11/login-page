@@ -5,7 +5,7 @@ function getValue() {
   var userName = document.getElementById("username").value;
   var password = document.getElementById("password").value;
   if (realUserName === userName && realPassword === password) {
-    document.getElementById("confirm-button").innerHTML = "success";
+    document.getElementById("confirm-button").innerHTML = "successful";
     document.getElementById("confirm-button").style.backgroundColor = "#1959b9";
   }
   else {
