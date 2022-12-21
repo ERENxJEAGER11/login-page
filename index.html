@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+  <!-- Design by foolishdeveloper.com -->
+  <title>Glassmorphism login Form Tutorial in html css</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <!--Stylesheet-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style media="screen">
+    *,
+    *:before,
+    *:after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #080710;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <form>
+    <h3>Login Here</h3>
+
+    <label for="username">Username</label>
+    <input type="text" placeholder="Email or Phone" id="username">
+
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="password">
+
+    <button id="confirm-button" onclick="getValue()">Log In</button>
+    <div class="social">
+      <div class="go"><i class="fab fa-google"></i> Google</div>
+      <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+    </div>
+  </form>
+<!--   <div class="success">successful</div> -->
+
+  <script src="script.js" style="display: none;"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
